@@ -5,4 +5,4 @@ def new_list():
         "last": None,
         "size": 0,
     }
-    return new_list
+    return newlist
