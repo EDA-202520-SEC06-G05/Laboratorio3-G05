@@ -26,6 +26,7 @@
 
 import csv
 import os
+from DataStructures.List import array_list as It
 
 # TODO Importar la librería para el manejo de listas
 
