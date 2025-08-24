@@ -28,5 +28,5 @@ def is_present(my_list, element, cmp_function):
             
     if not is_in_array:
         count = -1
-        
     return count
+
