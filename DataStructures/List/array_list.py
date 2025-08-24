@@ -22,3 +22,25 @@ def is_present(my_list, element, cmp_function):
         if keyexist:
             return keypos
     return -1
+
+def add_first (my_list, element):
+    my_list["elements"].insert(0,element)
+    my_list["size"] +=1
+    return my_list 
+    
+def add_last (my_list, element):
+    my_list["elements"][my_list["size"]:] = [element]
+    my_list["size"] +=1
+    return my_list
+
+def size (my_list):
+    return my_list["size"]
+
+
+def first_element (my_list):
+    if my_list["elements"] != None:
+        first_element = my_list["elements"][0]
+    else:
+        first_element = None
+        
+    return first_element 
