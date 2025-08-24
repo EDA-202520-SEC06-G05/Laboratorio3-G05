@@ -1,3 +1,6 @@
+
+from DataStructures.List import array_list as al
+
 def new_list():
     newlist = {
         "elements": [],
@@ -27,7 +30,7 @@ def add_first (my_list, element):
     my_list["elements"].insert(0,element)
     my_list["size"] +=1
     return my_list 
-    
+
 def add_last (my_list, element):
     my_list["elements"][my_list["size"]:] = [element]
     my_list["size"] +=1
@@ -42,5 +45,4 @@ def first_element (my_list):
         first_element = my_list["elements"][0]
     else:
         first_element = None
-        
-    return first_element 
+    return first_element
